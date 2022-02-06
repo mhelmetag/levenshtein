@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class TurboBlankTest < Minitest::Test
+class LevenshteinTest < Minitest::Test
   def test_nonzero_distance
     string1 = 'Hello, world!'
     string2 = 'Hellø, world!'
